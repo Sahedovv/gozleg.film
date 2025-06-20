@@ -1,0 +1,149 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #0a0c1b; /* Усиленный тёмный фон */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Усиленная тень */
+    text-align: center;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.8rem; /* Немного увеличил для акцента */
+    font-weight: 900; /* Более толстый шрифт */
+    color: #3a6ff7; /* Ярче синий */
+    margin-bottom: 1.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Лёгкая тень для контраста */
+  }
+  
+  .text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem; /* Чуть крупнее для читаемости */
+    color: #e0e7ff; /* Более светлый текст */
+    margin-bottom: 1.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+  }
+  
+  .teamSection {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 2px solid #3a6ff7; /* Более яркая граница */
+    border-radius: 10px; /* Немного больше радиус */
+    background: #0a0c1b; /* Единый тёмный фон */
+    max-width: 450px; /* Чуть шире для баланса */
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Тень для объёма */
+  }
+  
+  .teamTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7rem; /* Больше и толще */
+    font-weight: 800;
+    color: #3a6ff7;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .teamName {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem; /* Крупнее */
+    font-weight: 700;
+    color: #e0e7ff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teamRole {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem; /* Чуть крупнее */
+    color: #a3bffa; /* Более яркий серо-голубой */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.9rem 1.7rem; /* Чуть больше для акцента */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: #3a6ff7;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тень для кнопки */
+  }
+  
+  .button:hover {
+    background: #1e40af;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  body.light .container {
+    background: #f3f4f6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.light .title {
+    color: #1e40af;
+  }
+  
+  body.light .text {
+    color: #374151;
+  }
+  
+  body.light .teamSection {
+    border-color: #1e40af;
+    background: #f3f4f6;
+  }
+  
+  body.light .teamTitle {
+    color: #1e40af;
+  }
+  
+  body.light .teamName {
+    color: #1f2937;
+  }
+  
+  body.light .teamRole {
+    color: #6b7280;
+  }
+  
+  body.light .button {
+    background: #1e40af;
+  }
+  
+  body.light .button:hover {
+    background: #172d6e;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 2.2rem;
+    }
+  
+    .teamSection {
+      padding: 1rem;
+      max-width: 300px;
+    }
+  
+    .teamTitle {
+      font-size: 1.4rem;
+    }
+  
+    .teamName {
+      font-size: 1.2rem;
+    }
+  
+    .button {
+      padding: 0.7rem 1.3rem;
+      font-size: 1rem;
+    }
+  }
