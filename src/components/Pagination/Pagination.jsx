@@ -1,4 +1,5 @@
 import styles from './Pagination.module.css';
+import React from 'react';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     const maxPagesToShow = 3;

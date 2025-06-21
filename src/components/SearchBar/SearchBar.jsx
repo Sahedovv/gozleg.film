@@ -1,4 +1,5 @@
 import { useForm } from 'react-hook-form';
+import React from 'react';
 import styles from './SearchBar.module.css';
 
 const SearchBar = ({ onSearch }) => {
